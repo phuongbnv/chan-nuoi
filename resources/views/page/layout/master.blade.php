@@ -16,8 +16,7 @@
     <link href=" {{asset('css/page/style.css')}}" rel="stylesheet"/>
 </head>
 <body>
-<img class="bg" src="{{asset('img/background.jpg')}}" alt="">
-<div class="container body-content">
+<div class="container body-content bg">
     @yield('content')
 </div>
 <div class="footer">
@@ -25,13 +24,9 @@
 </div>
 <style>
     .bg{
-        position: fixed; 
-        top: 0; 
-        left: 0; 
-        min-width: 100%;
-        min-height: 100%;
-        z-index: -999999;
-        
+        background: url(../img/background.jpg);
+        background-position: center;
+        background-size: cover;
     }
     
     .bg-login{

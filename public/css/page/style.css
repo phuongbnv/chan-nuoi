@@ -98,6 +98,10 @@ p{
     }
     .body-content{
       padding: 0 10px;
+      margin-bottom: 0;
+    }
+    .footer {
+      position: relative;
     }
     .level {
         margin-left: 0 !important;
